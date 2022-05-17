@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33970538682619678}
   - component: {fileID: 23454467790283666}
   m_Layer: 0
-  m_Name: Brick
+  m_Name: ladrillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
