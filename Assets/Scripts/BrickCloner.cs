@@ -21,11 +21,11 @@ public class BrickCloner : MonoBehaviour {
         GameObject clone;
        
         
-        for (int i = 0; i > float.Parse(ingresoCant.text); i++)
+        for (int i = 0; i < float.Parse(ingresoCant.text); i++)
         {
             clone = Instantiate(brick);
             clone.transform.position += new Vector3(xPosicion, 0, 0);
-            xPosicion = xPosicion + 1.1f;
+            xPosicion = xPosicion + 2f;
             Destroy(clone,2);
         }
 
